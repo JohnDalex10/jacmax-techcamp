@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>THREE-PAGES WEBSITE W/ HTMLxCSS</title>
+    <link rel="stylesheet" href="livecode.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="banner">
+      <div class="navbar">
+        <img src="JAC CRD 1.png" class="logo" />
+        <ul>
+          <li class="nActive"><a href="index.html">Home</a></li>
+          <li class="nActive"><a href="about.html">About</a></li>
+          <li class="active"><a href="calculator.html">Calculator</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h1>Basic Calculator w/ JavaScript.</h1>
+        <p>Pulling from the calculator.html file.</p>
+        <div>
+          <button type="button">
+            <input
+              placeholder="Enter the Length (cm)"
+              id="length"
+              type="number"
+            />
+          </button>
+          <button type="button">
+            <input
+              placeholder="Enter the Width (cm)"
+              id="width"
+              type="number"
+            />
+          </button>
+          <br />
+          <button type="button" id="submit" onclick="calcFunc()">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
